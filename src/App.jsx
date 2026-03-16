@@ -33,7 +33,7 @@ const INITIAL_PEOPLE = [
     potential: 10,
     kinkiness: 5,
     socials: '@seblovin',
-    notes: 'Very handsome and great biceps. Looks AI generated. Insanely good kisser',
+    notes: 'Looks AI generated. Insanely good kisser',
     hairColor: '#0f172a',
     shirtColor: '#18181b',
     skinColor: '#f1c27d'
