@@ -438,7 +438,7 @@ export default function App() {
           <div className="flex items-center gap-5">
             <Logo />
             <div>
-              <h1 className="text-3xl md:text-4xl font-black text-slate-900 tracking-tight">Sahara Problem</h1>
+              <h1 className="text-3xl md:text-4xl font-black text-black tracking-tight">Sahara Problem</h1>
               <p className="text-[10px] uppercase font-bold tracking-[0.25em] text-slate-500 mt-1">Dragon rider's favorite</p>
             </div>
           </div>
@@ -474,7 +474,7 @@ export default function App() {
 
               <div className="absolute top-8 left-8 flex items-center gap-3 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-emerald-100 shadow-sm z-20">
                 <span className="w-2.5 h-2.5 bg-emerald-400 rounded-full animate-pulse"></span>
-                <h2 className="text-xs font-bold text-emerald-700 uppercase tracking-widest">Active Territory</h2>
+                <h2 className="text-xs font-bold text-black uppercase tracking-widest">Active Territory</h2>
               </div>
               
               <div className="w-full h-full relative z-10">

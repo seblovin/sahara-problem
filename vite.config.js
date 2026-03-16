@@ -5,4 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: '/sahara-problem/',
   plugins: [react(), tailwindcss()],
+  build: {
+    target: 'es2019',
+    minify: false,
+  },
 })
