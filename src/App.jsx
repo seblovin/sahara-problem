@@ -223,7 +223,7 @@ const Avatar = ({ person, isDragging, isShaking, isMoving }) => {
         )}
       </div>
 
-      <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap bg-white/95 backdrop-blur-sm border border-slate-200/60 px-4 py-1.5 rounded-full text-xs font-bold text-slate-700 opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg shadow-slate-200/50 flex items-center gap-1.5 z-20">
+      <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap bg-white/95 backdrop-blur-sm border border-slate-200/60 px-4 py-1.5 rounded-full text-xs font-bold text-slate-700 opacity-100 transition-all duration-300 shadow-lg shadow-slate-200/50 flex items-center gap-1.5 z-20 pointer-events-none">
         {person.name} {isSeb && <Sparkles size={12} className="text-orange-500" />}
       </div>
     </div>
@@ -438,7 +438,7 @@ export default function App() {
           <div className="flex items-center gap-5">
             <Logo />
             <div>
-              <h1 className="text-3xl md:text-4xl font-black text-black tracking-tight">Sahara Problem</h1>
+              <h1 className="text-3xl md:text-4xl font-black tracking-tight !text-black" style={{ color: '#000000' }}>Sahara Problem</h1>
               <p className="text-[10px] uppercase font-bold tracking-[0.25em] text-slate-500 mt-1">Dragon rider's favorite</p>
             </div>
           </div>
@@ -474,7 +474,7 @@ export default function App() {
 
               <div className="absolute top-8 left-8 flex items-center gap-3 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-emerald-100 shadow-sm z-20">
                 <span className="w-2.5 h-2.5 bg-emerald-400 rounded-full animate-pulse"></span>
-                <h2 className="text-xs font-bold text-black uppercase tracking-widest">Active Territory</h2>
+                <h2 className="text-xs font-bold uppercase tracking-widest !text-black" style={{ color: '#000000' }}>Active Territory</h2>
               </div>
               
               <div className="w-full h-full relative z-10">
